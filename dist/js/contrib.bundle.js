@@ -8930,7 +8930,7 @@ module.exports = function (SIP) {
 
     addDefaultIceCheckingTimeout: { writable: true, value: function addDefaultIceCheckingTimeout(peerConnectionOptions) {
         if (peerConnectionOptions.iceCheckingTimeout === undefined) {
-          peerConnectionOptions.iceCheckingTimeout = 1000;
+          peerConnectionOptions.iceCheckingTimeout = 1500;
         }
         return peerConnectionOptions;
       } },
