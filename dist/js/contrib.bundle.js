@@ -11170,6 +11170,7 @@ module.exports = function (SIP) {
       // Undocumented "Advanced" Options
       traceSip: this.options.ua.traceSip,
       hackWssInTransport: true,
+      hackIpInContact: true,
       userAgentString: this.options.ua.userAgentString,
       // Fixed Options
       register: true,
